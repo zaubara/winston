@@ -12,6 +12,7 @@ declare namespace winston {
     stderrLevels?: string[];
     debugStdout?: boolean;
     eol?: string;
+    forceConsole?: boolean;
   }
 
   interface ConsoleTransportInstance extends Transport {
